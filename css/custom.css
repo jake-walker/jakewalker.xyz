@@ -1,0 +1,45 @@
+.jw-bg-clear {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .jw-text-primary {
+    font-family: 'Space Mono', monospace;
+}
+
+.jw-section {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.jw-section-lg {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.jw-img-round {
+    border-radius: 50%;
+}
+
+.hero {
+    background: linear-gradient(90deg, rgba(0, 210, 255, 0.8) 0%, rgba(58, 71, 213, 0.8) 100%), url("https://jakew.me/assets/img/sai-kiran-anagani-61187-unsplash.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    color: #fff;
+}
+
+.hero a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+.hero a:hover {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: underline;
+}
